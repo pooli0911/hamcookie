@@ -467,3 +467,12 @@ body {
     display: none;
   }
 }
+.checkbox {
+  border-style: solid;
+  border-radius: 10%;
+  width: 210px;
+  padding: 10px;
+}
+.sidetext {
+  margin-left: 0px;
+}

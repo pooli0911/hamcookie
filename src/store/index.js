@@ -1,7 +1,6 @@
 import { createContext, useReducer } from "react";
 import products from "../json/products.json"
 import {
-   SET_PAGE_TITLE,
    SET_PAGE_CONTENT,
    SET_NAVBAR_ACTIVEITEM,
    ADD_CART_ITEM,
