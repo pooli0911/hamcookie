@@ -1,7 +1,6 @@
 import { useState, useContext } from "react";
 import { Badge } from "antd";
 import { CartIcon } from "./Icons";
-import CartModal from "./CartModal";
 import { StoreContext } from "../store"
 
 export default function CartSummary() {
@@ -22,10 +21,6 @@ export default function CartSummary() {
         </Badge>
         <p className="cart-summary-text"> Shopping bag </p>
       </nav>
-      {/* <CartModal
-        isModalVisible={isModalVisible}
-        toggleModal={toggleModal}
-      /> */}
     </>
   );
 }
